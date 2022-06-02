@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Bröllopsfotografen Inlämning</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="manifest" href="manifest.json">
+    </head>
+    <body>
+        <section id="header">
+            <div id="filler"></div>
+            <h1 id="title">Camera</h1>
+            <button id="gallery-side" onclick="toGallery()">Saved Pictures</button>
+        </section>
+
+        <canvas id="img-canvas"></canvas>
+        <section id="camera-section">
+            <video src="" id="camera" autoplay></video>
+            <button id="take-image">Take picture!</button>
+            <div id="notify">Image taken!</div>
+        </section>
+        <script src="app.js" async defer></script>
+    </body>
+</html>

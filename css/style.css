@@ -1,0 +1,159 @@
+body {
+    background-color: #2A2E30;
+    height: 100%;
+    margin: 0px;
+}
+
+#camera-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#camera {
+    border-radius: 20px;
+    margin: 20px;
+    width: 100%;
+    height: 500px;
+
+}
+
+#header {
+    margin-top: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#filler {
+    width: 100px;
+}
+#title {
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#img-canvas {
+    top: 90px;
+    left: 0;
+    border: 2px solid black;
+    margin: 10px;
+    width: 98%;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    display: none;
+    z-index: 2;
+    position: absolute;
+}
+
+#notify {
+    background-color: white;
+    display: none;
+    color: #2A2E30;
+    border: 1px solid white;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#take-image {
+    background-color: white;
+    color: #2A2E30;
+    width: 100%;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+#wrapp-button {
+    position: relative;
+}
+
+#remove-button {
+    background-color: red;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#back-video {
+    background-color: white;
+    color: #2A2E30;
+    width: 100px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    #camera {
+        margin: 20px;
+        width: 98%;
+        height: 100%;
+    }
+    #pic-canvas {
+        height: 285px;
+        width: 98%;
+    }
+    #gallery img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+#gallery-wrapper {
+    margin-top: 1.125rem;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 1rem;
+    width: 100%;
+  
+}
+
+#gallery-wrapper h1 {
+    color: pink;
+}
+
+#gallery {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#gallery img {
+    background-color: white;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+#gallery-side {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+    background-color: white;
+    color: #2A2E30;
+    width: 100px;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
